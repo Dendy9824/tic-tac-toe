@@ -2,10 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
-    width: 480px;
-    height:480px;
+    padding: 0px;
+    width: 455px;
+    height:455px;
     border:solid #000000;
     align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfkHGJO6PJa5C-o4DdtnXe7F8RZe5Z_Md04PXLZ2xUw&s');
 }    
 
 
@@ -15,10 +17,12 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    border: black solid;
+    border: 1px black solid;
     height: 150px;
     width: 150px;
     font-size: 70px;
+    padding: 0px;
+    margin: 0px;
 }
     
 h1{
@@ -33,12 +37,19 @@ p{
     width: 400px;
     height: 200px;
     border: 5px solid black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfkHGJO6PJa5C-o4DdtnXe7F8RZe5Z_Md04PXLZ2xUw&s');
 }
 
-#Play{
+.Play{
 
     border: 2px solid black;
     width: 100px;
     text-align: center;
+    margin: 0 auto;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfkHGJO6PJa5C-o4DdtnXe7F8RZe5Z_Md04PXLZ2xUw&s');
     
+}
+
+body{
+background-image: url('https://w0.peakpx.com/wallpaper/141/754/HD-wallpaper-3d-white-texture-white-geometric-texture-3d-white-background-3d-gypsum-white-texture-white-creative-background.jpg') ;
 }
