@@ -4,6 +4,8 @@ let boxes = document.querySelectorAll(".box")
 let turn = false
 let result = ""
 
+let kek
+
 let winCheck = () => {
     let drawCheck = 0
     let winCondition = [
