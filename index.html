@@ -11,8 +11,21 @@
 <body>
     
 <h1>Крестики нолики 
-<div class="Play">Play</div>      
+    
 </h1>
+<title>Refresh Page on Play Button Click</title>
+</head>
+<body>
+    <button onclick="refreshPage()">Reset</button>
+
+    <script>
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>
+
 <p style="border:2px #000000 solid; width:90px;">Счет очков:</p>  
     <ul class="container">
         <li class="box"></li>
@@ -28,4 +41,3 @@
     <script src="script.js"></script>
 </body>
 </html> 
-
