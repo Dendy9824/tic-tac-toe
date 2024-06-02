@@ -26,6 +26,7 @@ let winCheck = () => {
         ) {
             result = 'X победили'
             information.innerHTML = result
+            alert("X победили")
         } else if (
             boxes[winCondition[i] [0]].innerHTML == 'O' &&
             boxes[winCondition[i] [1]].innerHTML == 'O' &&
@@ -33,6 +34,7 @@ let winCheck = () => {
         ){
             result = 'O победили'
             information.innerHTML = result
+            alert("O победили")
         }
     }
 
